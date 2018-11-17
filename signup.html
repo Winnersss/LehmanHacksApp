@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>signup page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,10 +44,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
+              <a class="nav-link" href="profile.html">Profile</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Log In</a>
+              <a class="nav-link" href="chatbot.html">Access Account Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">Log In</a>
             </li>
           </ul>
         </div>
@@ -57,21 +63,24 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-      <form action="/action_page.php" method="get" id="form">
-  First name: <input type="text" name="fname"><br>
-  <p></p>
-  Last name: <input type="text" name="lname"><br>
-    <p></p>
-  Security Question: <select name="security">
-  <option value="pet">What was your first pet's name?</option>
-  <option value="year">What year were you born?</option>
-   Security Answer: <input type="text" name="sanswer">
-</select>
-    <p></p>
+      <form action="/action" method="get" id="form">
+       First name: <input type="text" name="fname"><br>
+       <p></p>
+       Last name: <input type="text" name="lname"><br>
+       <p></p>
+       Security Question: <select name="security">
+       <option value="pet">What was your first pet's name?</option>
+       <option value="year">What year were you born?</option>
+       <br>
+       Security Answer: <input type="text" name="sanswer">
+       </select>
+       <p></p>
+        Password: <input type="password" name="password">
+       <p></p>
 
-  <input type="submit" value="Submit">
-</form>
-</div>
+      <input type="submit" value="Submit">
+      </form>
+      </div>
     </header>
 
     <!-- Bootstrap core JavaScript -->

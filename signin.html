@@ -19,6 +19,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    <style>
+    #form{
+      margin: 20px;
+      font-family: monospace;
+      font-size: 18px;
+      display: block;
+      padding: 10px;
+      line-height: 50px;
+    }
+  </style>
 
   </head>
 
@@ -34,39 +44,35 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
+              <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Log In</a>
+              <a class="nav-link" href="signin.html">Log In</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-          <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
-        </div>
-      </div>
-      <div class="bg-circle-1 bg-circle"></div>
-      <div class="bg-circle-2 bg-circle"></div>
-      <div class="bg-circle-3 bg-circle"></div>
-      <div class="bg-circle-4 bg-circle"></div>
+      <form action="profile.html" method="post" id="form">
+      username: <input type="text" name="fname"><br>
+      <p></p>
+      password: <input type="password" name="lname"><br>
+      <p></p>
+  
+</select>
+    <p></p>
+
+  <input type="submit" value="Sign In" >
+</form>
+</div>
     </header>
-
-    
-
-    <!-- Footer -->
-    <footer class="py-5 bg-black">
-      <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
